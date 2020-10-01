@@ -34,7 +34,7 @@ export const getStaticProps: GetStaticProps<Top10Props> = async (context) => {
     props: {
       products
     },
-    revalidate: 5,
+    revalidate: 5, 
   }
     
   
